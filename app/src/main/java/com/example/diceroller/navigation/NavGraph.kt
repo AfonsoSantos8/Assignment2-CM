@@ -27,7 +27,7 @@ fun NavGraph(navController: NavHostController) {
         }
 
         composable(route = Screens.Result1.route) {
-            // Screen1(navController = navController)
+            ResultScreen1(navController = navController)
         }
 
         composable(
